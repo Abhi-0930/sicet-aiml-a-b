@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Student Registration Form</h1>
+        <form action="success.html" method="post">
+            <label>Full Name: </label>
+            <input type="text" 
+            required
+            minlength="3"
+            maxlength="30">
+            <br><br>
+
+            <label>Email Address: </label>
+            <input type="email"
+            required>
+            <br><br>
+
+            <label>Mobile Number: </label>
+            <input type="number"
+            required 
+            minlength="10"
+            maxlength="10">
+
+            <br><br>
+
+            <label>Password</label>
+            <input type="password"
+            required
+            minlength="8"
+            maxlength="16">
+
+            <br><br>
+
+            <label>Confirm Password: </label>
+            <input type="password"
+            required
+            minlength="8"
+            maxlength="16">
+
+            <br><br>
+
+            <label>Roll Number: </label>
+            <input type="tel"
+            required
+            minlength="5"
+            maxlength="10">
+
+            <br><br>
+
+            <label>Department: </label>
+            <select>
+                <option value="">CSE</option>
+                <option value="">ECE</option>
+                <option value="">EEE</option>
+                <option value="">Mechanical</option>
+                <option value="">Civil</option>
+                <option value="">AI</option>
+                <option value="">DS</option>
+            </select>
+
+            <br><br>
+
+            <label>Year</label>
+            <input type="radio" name="year">1st
+            <input type="radio" name="year">2nd
+            <input type="radio" name="year">3rd
+            <input type="radio" name="year">4th
+
+            <br><br>
+
+            <label>Skills</label>
+            <input type="checkbox">Python <br>
+            <input type="checkbox">Java <br>
+            <input type="checkbox">C++ <br>
+            <input type="checkbox">HTML <br>
+            <input type="checkbox">CSS <br>
+            <input type="checkbox">Javascript <br>
+
+            <br><br>
+
+            <label>Gender</label>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other
+
+            <br><br>
+
+            <label>Address: </label>
+            <textarea
+            required
+            minlength="20"
+            maxlength="150"></textarea>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+
+        </form>
+    </center>
+</body>
+</html>
