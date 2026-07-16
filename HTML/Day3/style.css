@@ -1,0 +1,8 @@
+p{
+    color:aliceblue;
+    background-color: black;
+    padding: 10px 30px 60px 120px;
+    margin: 50px;
+    border: 5px double red;
+    border-top-left-radius: 60px;
+}
